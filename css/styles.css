@@ -207,7 +207,8 @@ body ul {
   background-color: var(--white);
 }
 
-.team-social-links-box li {
+.team-social-links-box li,
+.team-social-links-box a {
   border-radius: 22px;
   box-shadow: 0px 0px 0px 0px;
   display: flex;
@@ -215,12 +216,13 @@ body ul {
   height: 44px;
   justify-content: center;
   align-items: center;
-  /* background: rgba(255, 255, 255, 0.1); */
   fill: var(--gray-clients);
 }
 
 .team-social-links-box li:hover,
-.team-social-links-box li:focus {
+.team-social-links-box li:focus,
+.team-social-links-box a:hover,
+.team-social-links-box a:focus {
   background: var(--blue);
   fill: var(--white);
 }
@@ -235,7 +237,8 @@ body ul {
   justify-content: space-between;
 }
 
-.our-clients-box {
+.our-clients-box,
+.our-clients-box a {
   border: 1px solid var(--gray-clients);
   border-radius: 4px;
   display: flex;
@@ -247,7 +250,9 @@ body ul {
 }
 
 .our-clients-box:hover,
-.our-clients-box:focus {
+.our-clients-box:focus,
+.our-clients-box a:hover,
+.our-clients-box a:focus {
   border: 1px solid var(--blue);
   fill: var(--blue);
 }
@@ -336,11 +341,6 @@ body ul {
   margin-left: 10px;
 }
 
-.header-contacts:hover,
-.header-contacts:focus {
-  /* color: var(--blue); */
-}
-
 .footee {
   background-color: var(--background-black);
   height: 252px;
@@ -379,7 +379,8 @@ body ul {
   background-color: var(--background-black);
 }
 
-.footee-social-links-box li {
+.footee-social-links-box li,
+.footee-social-links-box a {
   border-radius: 22px;
   display: flex;
   width: 44px;
@@ -391,7 +392,9 @@ body ul {
 }
 
 .footee-social-links-box li:hover,
-.footee-social-links-box li:focus {
+.footee-social-links-box li:focus,
+.footee-social-links-box a:hover,
+.footee-social-links-box a:focus {
   background: var(--blue);
 }
 
