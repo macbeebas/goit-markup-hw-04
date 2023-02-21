@@ -20,7 +20,7 @@
   </head>
 
   <body>
-    <header class="header header-white">
+    <header class="header">
       <div class="container">
         <div class="header-flex">
           <nav class="nav-header">
@@ -31,23 +31,29 @@
                 >
               </li>
               <li>
-                <a class="menu-nav" href="./index.html">Agencja</a>
+                <a class="menu-nav-active" href="./index.html">Agencja</a>
               </li>
               <li>
-                <a class="menu-nav-active" href="./portfolio.html">Portfolio</a>
+                <a class="menu-nav" href="./portfolio.html">Portfolio</a>
               </li>
               <li><a class="menu-nav" href="#">Kontakt</a></li>
             </ul>
           </nav>
           <ul class="inside-header">
             <li>
-              <a class="header-contacts" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
+              <a class="header-contacts" href="mailto:info@devstudio.com">
+                <svg class="icon-header" width="16px" height="12px">
+                  <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="header-contacts" href="tel:+48111111111"
-                >+48 111 111 111</a
+              <a class="header-contacts" href="tel:+48111111111">
+                <svg class="icon-header" width="10px" height="16px">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
+                +48 111 111 111</a
               >
             </li>
           </ul>
@@ -185,32 +191,63 @@
 
     <footer class="footee">
       <div class="container">
-        <a class="logo" href="./index.html"
-          >Web<span class="white-font">Studio</span></a
-        >
-        <address class="address">
-          <ul>
-            <li>
-              <a
-                class="address-line"
-                href="https://goo.gl/maps/ybBtPJiJFvGZkAcb9"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                >m. Warszawa, Aleje Jerozolimskie 21</a
-              >
-            </li>
-            <li>
-              <a class="footer-contacts" href="mailto:info@devstudio.com"
-                >info@devstudio.com
-              </a>
-            </li>
-            <li>
-              <a class="footer-contacts" href="tel:+48111111111"
-                >+48 111 111 111</a
-              >
-            </li>
-          </ul>
-        </address>
+        <ul class="footee-box">
+          <li>
+            <a class="logo" href="./index.html"
+              >Web<span class="white-font">Studio</span></a
+            >
+            <address class="address">
+              <ul>
+                <li>
+                  <a
+                    class="address-line"
+                    href="https://goo.gl/maps/ybBtPJiJFvGZkAcb9"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    >m. Warszawa, Aleje Jerozolimskie 21</a
+                  >
+                </li>
+                <li>
+                  <a class="footer-contacts" href="mailto:info@devstudio.com"
+                    >info@devstudio.com
+                  </a>
+                </li>
+                <li>
+                  <a class="footer-contacts" href="tel:+48111111111"
+                    >+48 111 111 111</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </li>
+          <li class="footee-social-links">
+            <p>Dołącz do nas</p>
+            <div class="footee-social-links-box">
+              <ul>
+                <li>
+                  <svg class="footee-social-icon" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg class="footee-social-icon" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg class="footee-social-icon" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg class="footee-social-icon" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
